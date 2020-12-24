@@ -834,7 +834,8 @@ section {
 }
 
 .trainers .member .social a {
-  color: #7e9486;
+  /*color: #7e9486;*/
+  color: #000000;
   transition: 0.3s;
 }
 
@@ -1402,9 +1403,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #37423b;
+  color: #2d7052;
   font-size: 14px;
-  background: #eef0ef;
+  background: #050d14;
 }
 
 #footer .footer-top {
