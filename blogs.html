@@ -1,595 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"> 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Bootstrap 4 Blog Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets2/css/theme-1.css">
 
-  <title>Projects - Mentor Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/logo.jpeg" rel="icon">
-  <link href="assets/img/logo.jpeg" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Mentor - v2.2.0
-  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+</head> 
 
 <body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Depth's Blog</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-      <nav class="navbar navbar-light ">
-        <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo.jpeg" width="50" height="50" alt="" loading="lazy">
-        </a>
-       </nav>
-
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.jpeg" alt="" class="img-fluid"></a> -->
-      <h1 class="logo mr-auto"><a href="index.html">DEPTH</a></h1>
-
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="mentors.html">Mentors</a></li>
-          <!-- <li><a href="events.html">Events</a></li> -->
-          <li class="active"><a href="blogs.html">Blogs</a></li>
-          <!-- <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/img/logo.jpeg" alt="image" >			
+					
+					<div class="bio mb-3">Hi, My name is Depth Dtu me bni yhain khtm.<br>
+						<!-- <a href="about.html">Find out more about us</a></div>//bio -->
+					<!-- <ul class="social-list list-inline py-3 mx-auto"> -->
+			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li> -->
+			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li> -->
+			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li> -->
+			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li> -->
+			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li> -->
+			        <!-- </ul>//social-list -->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-left">
+					<li class="nav-item">
+					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home</a>
+					<li class="nav-item active">
+					    <a class="nav-link" href="blogs.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blogs<span class="sr-only">(current)</span></a>
+					</li>
+					<!-- <li class="nav-item">
+					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
+					</li> -->
+					<!-- <li class="nav-item">
+					    <a class="nav-link" href="about2.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+					</li> -->
+				</ul>
+				
+				<!-- <div class="my-2 my-md-3">
+				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
+				</div> -->
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    <section class="cta-section theme-bg-light py-5">
+		    <div class="container text-center">
+			    <h2 class="heading">Blogs by the bakchods of Depth</h2>
+			    <div class="intro">Welcome to oue blog. Subscribe and get our latest blog post in your inbox.</div>
+			    <form class="signup-form form-inline justify-content-center pt-3">
+                    <div class="form-group">
+                        <label class="sr-only" for="semail">Your email</label>
+                        <input type="email" id="semail" name="semail1" class="form-control mr-md-1 semail" placeholder="Email Here">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+		    </div><!--//container-->
+	    </section>
+	    <section class="blog-list px-3 py-5 p-md-5">
+		    <div class="container">
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets2/images/blog/blog-post-thumb-1.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1"><a href="blog-post.html">Why Every Developer Should Have A Blog</a></h3>
+						    <div class="meta mb-1"><span class="date">Published 2 days ago</span><span class="time">5 min read</span><span class="comment"><a href="#">8 comments</a></span></div>
+						    <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+						    <a class="more-link" href="blog-post.html">Read more &rarr;</a>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets2/images/blog/blog-post-thumb-2.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1"><a href="blog-post.html">A Guide to Becoming a Full-Stack Developer</a></h3>
+						    <div class="meta mb-1"><span class="date">Published 3 months ago</span><span class="time">3 min read</span><span class="comment"><a href="#">26 comments</a></span></div>
+						    <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+						    <a class="more-link" href="blog-post.html">Read more &rarr;</a>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets2/images/blog/blog-post-thumb-3.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1"><a href="blog-post.html">High Performance JavaScript</a></h3>
+						    <div class="meta mb-1"><span class="date">Published 1 month ago</span><span class="time">8 min read</span><span class="comment"><a href="#">12 comments</a></span></div>
+						    <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+						    <a class="more-link" href="blog-post.html">Read more &rarr;</a>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets2/images/blog/blog-post-thumb-4.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1"><a href="blog-post.html">Top 5 JavaScript Frameworks</a></h3>
+						    <div class="meta mb-1"><span class="date">Published 2 months ago</span><span class="time">15 min read</span><span class="comment"><a href="#">3 comments</a></span></div>
+						    <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+						    <a class="more-link" href="blog-post.html">Read more &rarr;</a>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets2/images/blog/blog-post-thumb-5.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1"><a href="blog-post.html">Learn React in 24 Hours</a></h3>
+						    <div class="meta mb-1"><span class="date">Published 2 months ago</span><span class="time">10 min read</span><span class="comment"><a href="#">23 comments</a></span></div>
+						    <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+						    <a class="more-link" href="blog-post.html">Read more &rarr;</a>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    
+			    <div class="item">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets2/images/blog/blog-post-thumb-6.jpg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1"><a href="blog-post.html">About Remote Working</a></h3>
+						    <div class="meta mb-1"><span class="date">Published 3 months ago</span><span class="time">2 min read</span><span class="comment"><a href="#">1 comment</a></span></div>
+						    <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
+						    <a class="more-link" href="blog-post.html">Read more &rarr;</a>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
+			    </div><!--//item-->
+			    
+			    <nav class="blog-nav nav nav-justified my-5">
+				  <!-- <a class="nav-link-prev nav-item nav-link d-none rounded-left" href="#">Previous<i class="arrow-prev fas fa-long-arrow-alt-left"></i></a> -->
+				  <!-- <a class="nav-link-next nav-item nav-link rounded" href="blog-list.html">Next<i class="arrow-next fas fa-long-arrow-alt-right"></i></a> -->
+				</nav>
+				
+		    </div>
+	    </section>
+	    
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+    
+    
+    
+    
+    <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->  
+    <!-- <div id="config-panel" class="config-panel d-none d-lg-block">
+        <div class="panel-inner">
+            <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6" ></i></a>
+            <h5 class="panel-title">Choose Colour</h5>
+            <ul id="color-options" class="list-inline mb-0">
+                <li class="theme-1 active list-inline-item"><a data-style="assets2/css/theme-1.css" href="#"></a></li>
+                <li class="theme-2  list-inline-item"><a data-style="assets2/css/theme-2.css" href="#"></a></li>
+                <li class="theme-3  list-inline-item"><a data-style="assets2/css/theme-3.css" href="#"></a></li>
+                <li class="theme-4  list-inline-item"><a data-style="assets2/css/theme-4.css" href="#"></a></li>
+                <li class="theme-5  list-inline-item"><a data-style="assets2/css/theme-5.css" href="#"></a></li>
+                <li class="theme-6  list-inline-item"><a data-style="assets2/css/theme-6.css" href="#"></a></li>
+                <li class="theme-7  list-inline-item"><a data-style="assets2/css/theme-7.css" href="#"></a></li>
+                <li class="theme-8  list-inline-item"><a data-style="assets2/css/theme-8.css" href="#"></a></li>
             </ul>
-          </li> -->
-          <li><a href="contact.html">Contact</a></li>
+            <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
+        </div><!--//panel-inner-->
+    </div>//configure-panel -->
 
-        </ul>
-      </nav><!-- .nav-menu -->
-
-      <a href="courses.html" class="get-started-btn">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main" data-aos="fade-in">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs">
-      <div class="container">
-        <h2>Blogs</h2>
-        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
-      </div>
-    </div><!-- End Breadcrumbs -->
-
-    <!-- ======= Courses Section ======= -->
-    <section id="courses" class="courses">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="course-item">
-              <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Blog1</h4>
-                  <!-- <p class="price">$169</p> -->
-                </div>
-
-                <h3><a href="blog1.html">High Infinity</a></h3>
-                <p>What up</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
-                    <span>Barney Stinson</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;50 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;65 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Blog2</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">The Mosby Boys</a></h3>
-                <p>Ted and Barney</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>Barney Stinson</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-            <div class="course-item">
-              <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Classical and Quantum Information Theories</h4>
-                  <!-- <p class="price">$180</p> -->
-                </div>
-
-                <h3><a href="course-details.html">CM/QM IT</a></h3>
-                <p>Study of Basics of quantum information will be done initially. Followed by study of information theories both quantum and classical will be done. Any specific topic that would be suitable will be covered in great details. (Quantum Information )</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
-                    <span>Akhil Gupta and Rohan</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;20 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;85 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Quantum Random Number Generator(QRNG)</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">Quantum Random no.</a></h3>
-                <p>Study of basics of Quantum Information and computation will be done initially. Followed by study of quantum random number generator and it's applications in various disciplines such as quantum communication. Techniques of physical implementation will also be taken in consideration. (Quantum Information and communication )</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>Akhil Gupta and Rohan</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Born Infeld model of electrodynamics</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">Electrodynamics/a></h3>
-                <p> In this project we analyse the more general Lagranging of electrodynamics which was introduced to remove ultraviolet divergence, and try to solve some problems in the field of string theory. (String theory, Electrodynamics)</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>Nilesh Pandey</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Quantum fields in curved spacetime and more</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">Curved space time</a></h3>
-                <p>In this project we try to build and learn formalism behind the qft in curved spacetime and try to analyse various unusual phenomenon which are only present when one considers the theory of Quantum fields coupled with Gravity. (Quantum field theory, General Relativity)</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>Nilesh Pandey</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Learning General Relativity</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">General Relativity</a></h3>
-                <p> "To work on real problems in research internships etc. , it is good to have an understanding of the advanced topics that are being actively pursued but even more important is to develop a solid foundation of the fundamentals rigorously. Our aim is to learn General Relativity rigorously ( along with relevant portions of Differential Geometry) so that the literature on advanced topics can be tackled and one can become competent enough to actually work on real problems on his own or under supervision. Once the foundation is built, we will learn one or more of the following topics- Mathematics of Black Holes Cosmology Gravitational waves And maybe Methods for solving Einstein equation and casual structure" ( General relativity)
-                </p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>Malay Garg</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Studying motion in a stringy BH spacetime</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">Stringy BH spacetime</a></h3>
-                <p> This is like an elaborate exercise. Where we would learn a bit of classical mechanics , in detail about Schwarzchild spacetime, calculations of geodesics , geodesic deviation etc (General relativity)
-                </p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>Malay Garg</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Modelling stellar evolution</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">Stellar evolution</a></h3>
-                <p>We will be analysing data from telescopes pertaining to different regimes to study the evolution of stars, mainly their nucleosynthesis and the different categories they are classified into based upon their variable properties. (Theoretical astrophysics)
-                </p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>T.S.Sachin Venkatesh</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-
-          
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Analysing NEOs</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">NEOs</a></h3>
-                <p> I wish we could analyse NEO from the matrix but we have to suffice with Near Earth Objects. We will be determining the rotation rates of asteroids, cataloguing NEOs, and predict their trajectories. (Heavy coding and Soft Dev involved) (Observational astronomy/Data analysis)
-                </p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>T.S.Sachin Venkatesh</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Ferromagnetic and Antiferromagnetic Phase Transtion</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">Magnetic Transition</a></h3>
-                <p> Phase transitions are of fundamental importance in the field of statistical mechanics and condensed matter physics. In condensed matter physics,different models have been developed to study the microscopic nature of magnetism like the Ginzburg Landau model,Heisenberg model and many more.Through this project we will try to investigate these models and learn about the various aspects of physics that it involves.These models will allow us to move to current research interests like the quantum hall effect and to inspect the properties exhibited by magnetic meta-materials. (Condensed Matter Physics)
-                </p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>Shikhar Dash</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>Gravitational Waves Data Analysis</h4>
-                  <!-- <p class="price">$250</p> -->
-                </div>
-
-                <h3><a href="course-details.html">Gravitational waves</a></h3>
-                <p> Would involve analysing GW data, confirmed ones and also analysing potential merger candidates and determining why they left out on being confirmed as an event. (Astrophysics)
-                </p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                    <span>Shobhit Ranjan</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <!-- <i class="bx bx-user"></i>&nbsp;35 -->
-                    &nbsp;&nbsp;
-                    <!-- <i class="bx bx-heart"></i>&nbsp;42 -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Course Item-->
-
-
-          
-
-
-
-
-        </div>
-
-      </div>
-    </section><!-- End Courses Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <!-- <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Mentor</h3>
-            <p>
-              Depth <br>
-              vale<br>
-              United States <br><br> -->
-              <!-- <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div> -->
-
-          <!-- <div class="colS -->
-
-          <!-- <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div> -->
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container d-md-flex py-4">
-
-      <div class="mr-md-auto text-center text-md-left">
-
-        <div class="container d-md-flex py-4">
-          <div class="Made by">
-            <h2>Made with <span style="color: #e25555;">&hearts;</span> by</h2>
-          </div>
     
-          <div class="row" data-aos="zoom-in" data-aos-delay="100">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
-                <div class="member-content">
-                  <h4>Priyansh Tyagi</h4>
-                  <!-- <span>Web Development</span> -->
-                  <!-- <p>
-                    Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-                  </p> -->
-                  <div class="social">
-                    <!-- <a href=""><i class="icofont-twitter"></i></a>
-                    <a href=""><i class="icofont-facebook"></i></a> -->
-                    <a href=""><i class="icofont-instagram"></i></a>
-                    <a href=""><i class="icofont-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-                <div class="member-content">
-                  <h4>Sakshi Arora</h4>
-                  <!-- <span>Marketing</span> -->
-                  <!-- <p>
-                    Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-                  </p> -->
-                  <div class="social">
-                    <!-- <a href=""><i class="icofont-twitter"></i></a>
-                    <a href=""><i class="icofont-facebook"></i></a> -->
-                    <a href=""><i class="icofont-instagram"></i></a>
-                    <a href=""><i class="icofont-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
-                <div class="member-content">
-                  <h4>Pranay Khosla</h4>
-                  <!-- <span>Content</span> -->
-                  <!-- <p>
-                    Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-                  </p> -->
-                  <div class="social">
-                    <!-- <a href=""><i class="icofont-twitter"></i></a>
-                    <a href=""><i class="icofont-facebook"></i></a> -->
-                    <a href=""><i class="icofont-instagram"></i></a>
-                    <a href=""><i class="icofont-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-          </div>
-    
-        </div>
-      </section>
-        <div class="copyright">
-          &copy; Copyright <strong><span>DEPTH DTU</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
-        </div>
-      </div>
-      <!-- <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-        <a href="https://www.facebook.com/depthdtu" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://instagram.com/depthsoc?igshid=1xu5q0xi5i32k" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <!-- <a href="#" target="_blank" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script> 
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
 
-  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets2/js/demo/style-switcher.js"></script>     
+    
 
 </body>
+</html> 
 
-</html>
